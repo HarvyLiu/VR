@@ -316,6 +316,28 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   transform: scale(1.02);
 }
 
+#sceneList .scene::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 230px;
+  top: 50%;
+  transform: translateY(-50%) translateX(10px);
+  white-space: nowrap;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#sceneList .scene:hover::after {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
+
 .mobile #sceneList .scene {
   height: 40px;
 }
