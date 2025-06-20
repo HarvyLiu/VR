@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-pano_20250513_172052_2",
-      "name": "PANO_20250513_172052_2",
+      "name": "垃圾廚房",
       "levels": [
         {
           "tileSize": 256,
@@ -49,7 +49,7 @@ var APP_DATA = {
     },
     {
       "id": "1-pano_20250513_180718_9",
-      "name": "PANO_20250513_180718_9",
+      "name": "巴洛克花園前的窗台",
       "levels": [
         {
           "tileSize": 256,
@@ -96,7 +96,7 @@ var APP_DATA = {
     },
     {
       "id": "2-pano_20250513_182301_11",
-      "name": "PANO_20250513_182301_11",
+      "name": "最大的展區",
       "levels": [
         {
           "tileSize": 256,
